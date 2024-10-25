@@ -24,6 +24,12 @@ Lista de extensões essenciais que utilizo:
 
 ## Configurações
 
+### Font Family
+
+O primeiro passo antes de copiar o arquivo de configurações JSON é instalar a fonte [JetBrains Mono](https://www.jetbrains.com/lp/mono/)
+
+### Settings.json
+
 Estas são as configurações que uso no meu `settings.json`:
 
 ```json
