@@ -66,8 +66,6 @@ Estas são as configurações que uso no meu `settings.json`:
     "editor.semanticHighlighting.enabled": false,
     "breadcrumbs.enabled": false,
     "editor.minimap.enabled": false,
-    "editor.scrollbar.horizontal": "hidden",
-    "editor.scrollbar.vertical": "hidden",
     "window.commandCenter": false,
     "window.menuBarVisibility": "compact",
     "workbench.layoutControl.enabled": false,
