@@ -4,7 +4,7 @@ Este repositório contém minhas configurações personalizadas para o VS Code. 
 
 ## Extensões
 
-Lista de extensões essenciais que utilizo:
+Lista de extensões que utilizo:
 
 - **CodeSnap**: adpyke.codesnap
 - **Docker**: ms-azuretools.vscode-docker
@@ -69,5 +69,6 @@ Estas são as configurações que uso no meu `settings.json`:
     "window.commandCenter": false,
     "window.menuBarVisibility": "compact",
     "workbench.layoutControl.enabled": false,
-    "terminal.integrated.defaultProfile.windows": "Git Bash"
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
+    "files.autoSave": "onFocusChange"
 }
