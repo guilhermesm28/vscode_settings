@@ -37,9 +37,6 @@ Estas são as configurações que uso no meu `settings.json`:
     "[python]": {
         "editor.formatOnType": true // Formatar enquanto digita código Python
     },
-    "files.exclude": {
-        "**/.git": false // Incluir arquivos/diretórios .git no explorador
-    },
     "security.allowedUNCHosts": [
         "wsl.localhost" // Permitir conexões UNCHost específicas, como para WSL
     ],
