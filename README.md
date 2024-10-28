@@ -66,5 +66,8 @@ Estas são as configurações que uso no meu `settings.json`:
     "window.menuBarVisibility": "compact", // Visibilidade da barra de menu
     "workbench.layoutControl.enabled": false, // Desativar controle de layout do workbench
     "terminal.integrated.defaultProfile.windows": "Git Bash", // Perfil padrão do terminal integrado
-    "files.autoSave": "onFocusChange" // Salvar automaticamente ao mudar de foco
+    "files.autoSave": "onFocusChange", // Salvar automaticamente ao mudar de foco
+    "editor.smoothScrolling": true, // Ativar rolagem suave no editor
+    "workbench.list.smoothScrolling": true, // Ativar rolagem suave em todo o workbench
+    "terminal.integrated.smoothScrolling": true // Ativar rolagem suave no terminal
 }
