@@ -34,41 +34,40 @@ Estas são as configurações que uso no meu `settings.json`:
 
 ```json
 {
-    "security.workspace.trust.untrustedFiles": "open",
-    "python.defaultInterpreterPath": "python",
-    "editor.formatOnSave": true,
     "[python]": {
-        "editor.formatOnType": true
+        "editor.formatOnType": true // Formatar enquanto digita código Python
     },
-    "explorer.confirmDelete": false,
-    "files.defaultLanguage": "r",
-    "terminal.integrated.defaultLocation": "editor",
-    "diffEditor.ignoreTrimWhitespace": false,
-    "files.trimTrailingWhitespace": true,
-    "editor.cursorSmoothCaretAnimation": "on",
-    "editor.cursorBlinking": "expand",
-    "security.allowedUNCHosts": [
-        "wsl.localhost"
-    ],
-    "workbench.iconTheme": "material-icon-theme",
     "files.exclude": {
-        "**/.git": false
+        "**/.git": false // Incluir arquivos/diretórios .git no explorador
     },
-    "workbench.colorTheme": "Min Dark",
-    "editor.fontSize": 14,
-    "editor.fontFamily": "JetBrains Mono, 'Courier New', monospace",
-    "editor.lineHeight": 1.8,
-    "workbench.startupEditor": "newUntitledFile",
-    "editor.renderLineHighlight": "gutter",
-    "editor.fontLigatures": true,
-    "workbench.editor.labelFormat": "short",
-    "explorer.compactFolders": false,
-    "editor.semanticHighlighting.enabled": false,
-    "breadcrumbs.enabled": false,
-    "editor.minimap.enabled": false,
-    "window.commandCenter": false,
-    "window.menuBarVisibility": "compact",
-    "workbench.layoutControl.enabled": false,
-    "terminal.integrated.defaultProfile.windows": "Git Bash",
-    "files.autoSave": "onFocusChange"
+    "security.allowedUNCHosts": [
+        "wsl.localhost" // Permitir conexões UNCHost específicas, como para WSL
+    ],
+    "security.workspace.trust.untrustedFiles": "open", // Abrir arquivos não confiáveis
+    "python.defaultInterpreterPath": "python", // Caminho padrão do interpretador Python
+    "editor.formatOnSave": true, // Formatar automaticamente ao salvar
+    "explorer.confirmDelete": false, // Desativar confirmação ao excluir arquivos
+    "terminal.integrated.defaultLocation": "editor", // Abrir terminal integrado na área do editor
+    "diffEditor.ignoreTrimWhitespace": false, // Considerar espaços em branco ao comparar diferenças
+    "files.trimTrailingWhitespace": true, // Remover espaços em branco no final das linhas ao salvar
+    "editor.cursorSmoothCaretAnimation": "on", // Ativar animação suave do cursor
+    "editor.cursorBlinking": "expand", // Definir piscamento do cursor como expandido
+    "workbench.iconTheme": "material-icon-theme", // Tema de ícones do Workbench
+    "workbench.colorTheme": "Min Dark", // Tema de cores do Workbench
+    "editor.fontSize": 14, // Tamanho da fonte do editor
+    "editor.fontFamily": "JetBrains Mono, 'Courier New', monospace", // Família de fontes do editor
+    "editor.lineHeight": 1.8, // Altura da linha do editor
+    "workbench.startupEditor": "newUntitledFile", // Abrir novo arquivo em branco ao iniciar
+    "editor.renderLineHighlight": "gutter", // Destacar linha atual na margem esquerda
+    "editor.fontLigatures": true, // Ativar ligaduras de fonte no editor
+    "workbench.editor.labelFormat": "short", // Mostrar nomes curtos para abas de editores
+    "explorer.compactFolders": false, // Desativar exibição compacta de pastas
+    "editor.semanticHighlighting.enabled": false, // Desativar realce semântico no editor
+    "breadcrumbs.enabled": false, // Desativar breadcrumbs (caminho de navegação)
+    "editor.minimap.enabled": false, // Desativar minimapa no editor
+    "window.commandCenter": false, // Desativar command center na janela do VS Code
+    "window.menuBarVisibility": "compact", // Visibilidade da barra de menu
+    "workbench.layoutControl.enabled": false, // Desativar controle de layout do workbench
+    "terminal.integrated.defaultProfile.windows": "Git Bash", // Perfil padrão do terminal integrado
+    "files.autoSave": "onFocusChange" // Salvar automaticamente ao mudar de foco
 }
