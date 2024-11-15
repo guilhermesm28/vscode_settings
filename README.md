@@ -6,6 +6,7 @@ Este repositório contém minhas configurações personalizadas para o VS Code. 
 
 Lista de extensões que utilizo:
 
+- **Codeium**: codeium.codeium
 - **CodeSnap**: adpyke.codesnap
 - **Docker**: ms-azuretools.vscode-docker
 - **iSort**: ms-python.isort
