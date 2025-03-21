@@ -69,5 +69,10 @@ Estas são as configurações que uso no meu `settings.json`:
     "files.autoSave": "onFocusChange", // Salvar automaticamente ao mudar de foco
     "editor.smoothScrolling": true, // Ativar rolagem suave no editor
     "workbench.list.smoothScrolling": true, // Ativar rolagem suave em todo o workbench
-    "terminal.integrated.smoothScrolling": true // Ativar rolagem suave no terminal
+    "terminal.integrated.smoothScrolling": true, // Ativar rolagem suave no terminal
+    "codeium.enableConfig": {
+        "*": true,
+        "markdown": true
+    }, // Ativar Codeium em arquivos Markdown
+    "workbench.tree.indent": 15, // Indentação da arvore de arquivos
 }
