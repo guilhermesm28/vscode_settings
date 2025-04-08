@@ -45,7 +45,7 @@ Estas são as configurações que uso no meu `settings.json`:
     "python.defaultInterpreterPath": "python", // Caminho padrão do interpretador Python
     "editor.formatOnSave": true, // Formatar automaticamente ao salvar
     "explorer.confirmDelete": false, // Desativar confirmação ao excluir arquivos
-    "terminal.integrated.defaultLocation": "editor", // Abrir terminal integrado na área do editor
+    "terminal.integrated.defaultLocation": "view", // Abrir terminal integrado na janela do VS Code
     "diffEditor.ignoreTrimWhitespace": false, // Considerar espaços em branco ao comparar diferenças
     "files.trimTrailingWhitespace": true, // Remover espaços em branco no final das linhas ao salvar
     "editor.cursorSmoothCaretAnimation": "on", // Ativar animação suave do cursor
